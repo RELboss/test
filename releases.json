@@ -8,15 +8,7 @@
     {
       "version": "0.2",
       "description": 
-      ["Changed the color of foliages. Added the aether portal. ",
-      "Portal Structure:",
-      "# = glowstone, ? = water",
-      "####",
-      "#??#",
-      "#??#",
-      "#??#",
-      "####",
-      "Warning: You might need structure voids to help the water stay in place."],
+      ["Changed the color of foliages. Added the aether portal. Portal Structure is on Planet Minecraft. Warning: You might need structure voids to help the water stay in place."],
       "download": "https://github.com/RELboss/A-Vanilla-Aether/releases/download/02/A_Vanilla_Aether.v0.2.zip"
     },
     {
