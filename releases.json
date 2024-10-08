@@ -1,19 +1,28 @@
 {
   "releases": [
     {
-      "version": "0.1",
-      "description": "Initial Release. Added the aether and its highlands. Updated the Aether Highlands to make it look more like the mod. Command: /execute at aether:aether run to username 1 100 0.",
-      "download": "path/to/datapack_v0.1.zip"
+      "version": "0.3",
+      "description": "Coming Soon. The Trees, Highlands and Portals Update. Coming Soon.",
+      "download": "path/to/datapack_v0.3.zip"
     },
     {
       "version": "0.2",
-      "description": "Initial Release. Changed the color of foliages. Added the aether portal. Portal Structure: # = glowstone, ? = water, ####, #??#, #??#, #??#, ####. Warning: You might need structure voids to help the water stay in place.",
+      "description": 
+      ["Changed the color of foliages. Added the aether portal. ",
+      "Portal Structure:",
+      "# = glowstone, ? = water",
+      "####",
+      "#??#",
+      "#??#",
+      "#??#",
+      "####",
+      "Warning: You might need structure voids to help the water stay in place."],
       "download": "path/to/datapack_v0.2.zip"
     },
     {
-      "version": "0.3",
-      "description": "The Trees, Highlands and Portals Update. Coming Soon.",
-      "download": "path/to/datapack_v0.3.zip"
+      "version": "0.1",
+      "description": "Added the aether and its highlands. Updated the Aether Highlands to make it look more like the mod. Command: /execute at aether:aether run to username 1 100 0.",
+      "download": "path/to/datapack_v0.1.zip"
     }
   ]
 }
