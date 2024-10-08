@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Vanilla Aether Releases</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .release-card {
+            margin: 20px;
+            transition: transform 0.3s;
+        }
+
+        .release-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .download-btn {
+            opacity: 0;
+            transition: opacity 0.3s, transform 0.3s;
+            transform: translateY(10px);
+        }
+
+        .release-card:hover .download-btn {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">A Vanilla Aether Releases</h1>
+        <div id="releases" class="row"></div>
+    </div>
+
+    <script>
+        fetch('path/to/your/releases.json')
+            .then(response => response.json())
+            .then(data => {
+                const releasesDiv = document.getElementById('releases');
+                data.releases.forEach(release => {
+                    const releaseDiv = document.createElement('div');
+                    releaseDiv.classList.add('col-md-4');
+                    releaseDiv.innerHTML = `
+                        <div class="card release-card">
+                            <div class="card-body">
+                                <h5 class="card-title">Version ${release.version}</h5>
+                                <p class="card-text">${release.description}</p>
+                                <a href="${release.download}" class="btn btn-primary download-btn">Download</a>
+                            </div>
+                        </div>
+                    `;
+                    releasesDiv.appendChild(releaseDiv);
+                });
+            })
+            .catch(error => console.error('Error fetching the releases:', error));
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
