@@ -3,7 +3,7 @@
     {
       "version": "0.3",
       "description": "Coming Soon. The Trees, Highlands and Portals Update. Coming Soon.",
-      "download": "path/to/datapack_v0.3.zip"
+      "download": "example.com"
     },
     {
       "version": "0.2",
@@ -17,12 +17,12 @@
       "#??#",
       "####",
       "Warning: You might need structure voids to help the water stay in place."],
-      "download": "path/to/datapack_v0.2.zip"
+      "download": "https://github.com/RELboss/A-Vanilla-Aether/releases/download/02/A_Vanilla_Aether.v0.2.zip"
     },
     {
       "version": "0.1",
       "description": "Added the aether and its highlands. Updated the Aether Highlands to make it look more like the mod. Command: /execute at aether:aether run to username 1 100 0.",
-      "download": "path/to/datapack_v0.1.zip"
+      "download": "https://github.com/RELboss/A-Vanilla-Aether/releases/download/01/A_Vanilla_Aether.v0.1.zip"
     }
   ]
 }
